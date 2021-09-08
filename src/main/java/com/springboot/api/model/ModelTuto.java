@@ -3,7 +3,7 @@ package com.springboot.api.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collation = "test")
+@Document(collation = "modelTuto")
 public class ModelTuto {
     @Id
     private String id;
@@ -19,6 +19,7 @@ public class ModelTuto {
         this.title = title;
         this.desc = desc;
     }
+
 
     // Getters :
 

@@ -1,2 +1,8 @@
 server :
-  port : 8000
+  port : 8081
+
+spring :
+  data :
+    mongodb :
+      database : springTodos
+      port : 27017
